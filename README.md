@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>README</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
 <body>
-	<h1>Projeto XYZ</h1>
+	<h1>Lab-ansible-app-python-e-Docker-compose</h1>
 	<p>Este é um projeto para demonstrar a utilização de diversas tecnologias em conjunto para criar uma aplicação web.</p>
 	
 <h2>Tecnologias Utilizadas</h2>
 <ul>
-	<li>Python</li>
-	<li>Flask</li>
-	<li>SQLite</li>
-	<li>HTML</li>
-	<li>CSS</li>
-	<li>Docker</li>
-	<li>Ansible</li>
+	<li><img src="https://img.icons8.com/color/48/000000/python.png"/> Python</li>
+	<li><img src="https://img.icons8.com/officel/48/000000/flask.png"/> Flask</li>
+	<li><img src="https://img.icons8.com/color/48/000000/sqlite.png"/> SQLite</li>
+	<li><img src="https://img.icons8.com/color/48/000000/html-5.png"/> HTML</li>
+	<li><img src="https://img.icons8.com/color/48/000000/css3.png"/> CSS</li>
+	<li><img src="https://img.icons8.com/color/48/000000/docker.png"/> Docker</li>
+	<li><img src="https://img.icons8.com/color/48/000000/ansible.png"/> Ansible</li>
 </ul>
 
 <h2>Descrição dos arquivos e pastas</h2>
@@ -35,7 +29,7 @@
 	<li><code>Dockerfile</code>: arquivo para a construção da imagem Docker da aplicação em Python.</li>
 	<li><code>html/</code>: pasta com o arquivo HTML que serve como interface para a API.</li>
 	<li><code>index.html</code>: arquivo HTML que contém um formulário para envio de dados para a API.</li>
-	<li><code>docker-compose.yml</code>: arquivo com as configurações do Docker Compose para a criação dos containers dos serviços da aplicação.</li>
+	<li><code>docker-compose.yml</code>: arquivo com configurações do Docker Compose para a criação dos containers da aplicação.</li>
 </ul>
 
 <h2>Pré-requisitos</h2>
