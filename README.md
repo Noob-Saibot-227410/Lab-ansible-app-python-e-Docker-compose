@@ -7,8 +7,8 @@
 <h2>Tecnologias Utilizadas</h2>
 <ul>
 	<li><img src="https://img.icons8.com/color/48/000000/python.png"/> Python</li>
-	<li><img src="https://img.icons8.com/officel/48/000000/flask.png"/> Flask</li>
-	<li><img src="https://img.icons8.com/color/48/000000/sqlite.png"/> SQLite</li>
+	<li><img src="https://img.icons8.com/color/48/000000/flask.png"/> Flask</li>
+<li><img src="https://img.icons8.com/color/48/000000/database-structure.png"/> SQLite</li>
 	<li><img src="https://img.icons8.com/color/48/000000/html-5.png"/> HTML</li>
 	<li><img src="https://img.icons8.com/color/48/000000/css3.png"/> CSS</li>
 	<li><img src="https://img.icons8.com/color/48/000000/docker.png"/> Docker</li>
@@ -43,7 +43,7 @@
 <p>Para executar a aplicação, siga os seguintes passos:</p>
 <ol>
 	<li>Clone este repositório em sua máquina:</li>
-	<code>git clone https://github.com/seu-usuario/lab-python-api.git</code>
+	<code>git clone https://github.com/Noob-Saibot-227410/Lab-ansible-app-python-e-Docker-compose.git</code>
 	<li>Acesse a pasta do projeto:</li>
 	<code>cd lab-python-api</code>
 	<li>Execute o comando abaixo para iniciar os serviços da aplicação:</li>
