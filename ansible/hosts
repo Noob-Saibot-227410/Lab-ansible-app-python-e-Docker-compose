@@ -1,0 +1,2 @@
+[webservers]
+python-app ansible_host=python

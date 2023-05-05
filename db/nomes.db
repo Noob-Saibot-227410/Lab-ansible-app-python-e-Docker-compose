@@ -1,0 +1,7 @@
+sqlite3 nomes.db
+sqlite> CREATE TABLE nomes (id INTEGER PRIMARY KEY, nome TEXT, idade INTEGER);
+sqlite> INSERT INTO nomes (nome, idade) VALUES ('João', 25);
+sqlite> INSERT INTO nomes (nome, idade) VALUES ('Maria', 30);
+sqlite> SELECT * FROM nomes;
+1|João|25
+2|Maria|30

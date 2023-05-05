@@ -1,0 +1,39 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+  - name: Update apt cache
+    apt:
+      update_cache: yes
+
+  - name: Install Python 3
+    apt:
+      name: python3
+      state: present
+
+  - name: Install pip
+    apt:
+      name: python3-pip
+      state: present
+
+  - name: Install required Python packages
+    pip:
+      requirements: "/usr/src/app/requirements.txt"
+
+  - name: Start Flask app
+    command: python3 /usr/src/app/app.py
+    async: true
+    poll: 0
+    register: app_service
+
+  - name: Wait for Flask app to start
+    uri:
+      url: http://localhost:5000/
+      method: GET
+      return_content: no
+      status_code: 200
+    register: result
+    until: result.status == 200
+    retries: 30
+    delay: 2
+    when: app_service is defined and app_service.stdout != ''
